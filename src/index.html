@@ -25,7 +25,7 @@
         <!-- header -->
         <header class="header-area header-three">  
            <div class="header-top second-header d-none d-md-block">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row align-items-center">      
                         <div class="col-lg-10 col-md-10 d-none d-lg-block">
                              <div class="header-cta">
@@ -57,7 +57,7 @@
                 </div>
             </div>		
 			  <div id="header-sticky" class="menu-area">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="second-menu">
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-2">
@@ -65,7 +65,7 @@
                                     <a href="index.html"><img src="img/logo/logo.png" alt="logo"></a>
                                 </div>
                             </div>
-                           <div class="col-xl-8 col-lg-8">
+                           <div class="col-xl-9 col-lg-9">
                               
                                 <div class="main-menu text-center">
                                     <nav id="mobile-menu">
@@ -76,8 +76,7 @@
 													<li><a href="index.html">Home Page 01</a></li>
 													<li><a href="index-2.html">Home Page 02</a></li>													
 													<li><a href="index-3.html">Home Page Side Menu</a></li>													
-													<li><a href="index-4.html">Home Page Full Menu</a></li>													
-																										
+													<li><a href="index-4.html">Home Page Full Menu</a></li>							
 												</ul>
                                             </li>
                                             <li><a href="about.html">About</a></li>        
@@ -118,8 +117,12 @@
                                     </nav>
                                 </div>
                             </div>   
-                             <div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                                 <a href="contact.html" class="top-btn mt-10 mb-10">reservation </a>
+                             <div class="col-xl-1 col-lg-1 d-none d-lg-block text-right">
+                                <div class="search-top">
+                                   <ul>
+                                       <li><div class="bar-humburger"><a href="#" class="menu-tigger"><i class="fal fa-bars"></i></a></div></li>
+                                    </ul>
+                                </div>
                             </div>
                             
                                 <div class="col-12">
@@ -131,34 +134,45 @@
             </div>
         </header>
         <!-- header-end -->
-        
+         <!-- offcanvas-area -->
+                <div class="offcanvas-menu">
+                <span class="menu-close"><i class="fal fa-times"></i></span>
+              <form role="search" method="get" id="searchform"   class="searchform" action="http://wordpress.zcube.in/xconsulta/">
+                                <input type="text" name="s" id="search" value="" placeholder="Search"  />
+                                <button><i class="fal fa-search"></i></button>
+                            </form>
+
+                    
+                    <div id="cssmenu3" class="menu-one-page-menu-container">
+                        <ul id="menu-one-page-menu-2" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html">Home</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="about.html">About Us</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="services.html">Services</a></li>
+                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="pricing.html">Pricing </a></li>
+                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="team.html">Team </a></li>
+                             
+                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="projects.html">Gallery Study</a></li>
+                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="blog.html">Blog</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>  
+                    
+                    <div id="cssmenu2" class="menu-one-page-menu-container mt-100">
+                        <ul id="menu-one-page-menu-1" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+8 12 3456897</span></a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#howitwork"><span>info@example.com</span></a></li>
+                        </ul>
+                    </div>                
+            </div>
+            <div class="offcanvas-overly"></div>
+                 <!-- offcanvas-end -->
         <!-- main-area -->
         <main>
            <!-- slider-area -->
             <section id="home" class="slider-area fix p-relative">
                
                 <div class="slider-active" style="background: #101010;">
-				<div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(img/slider/slider_bg.png); background-size: cover;">
-                        <div class="container">
-                           <div class="row justify-content-center align-items-center">
-                              
-                               <div class="col-lg-7 col-md-7">
-                                    <div class="slider-content s-slider-content mt-80 text-center">
-                                         <h2 data-animation="fadeInUp" data-delay=".4s">Enjoy A Luxuary Experience</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
-                                        
-                                          <div class="slider-btn mt-30 mb-105">     
-                                             <a href="contact.html" class="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </a>
-                                              <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" class="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style="animation-delay: 0.8s;" tabindex="0"><i class="fas fa-play"></i> Intro Video</a>
-                                        </div>        
-                                                              
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(img/slider/slider_bg_01.png); background-size: cover;">
+				<div class="single-slider slider-bg d-flex align-items-center" style="background-image: url(img/slider/slider_bg_01.png); background-size: cover;">
                         <div class="container">
                            <div class="row justify-content-center align-items-center">
                               
@@ -168,23 +182,20 @@
                                         <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
                                         
                                           <div class="slider-btn mt-30 mb-105">     
-                                             <a href="contact.html" class="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </a>
+                                              <a href="contact.html" class="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Visit Our Shop</a>
                                               <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" class="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style="animation-delay: 0.8s;" tabindex="0"><i class="fas fa-play"></i> Intro Video</a>
                                         </div>        
                                                               
                                     </div>
                                 </div>
-                                
-                                
+                               
                             </div>
                         </div>
                     </div>
                     </div>
-                    
-               
             </section>
             <!-- slider-area-end -->
-             <!-- booking-area -->
+            <!-- booking-area -->
             <div id="booking" class="booking-area p-relative">
                 <div class="container">
                     <form action="#" class="contact-form" >
@@ -258,169 +269,6 @@
                 </div>
             </div>
             <!-- booking-area-end -->
-             <!-- about-area -->
-            <section class="about-area about-p pt-120 pb-120 p-relative fix">
-                <div class="animations-02"><img src="img/bg/an-img-02.png" alt="contact-bg-an-02"></div>
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
-                         <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                                <img src="img/features/about_img_02.png" alt="img">   
-                               <div class="about-icon">
-                                     <img src="img/features/about_img_03.png" alt="img">   
-                                </div>
-                            </div>
-                          
-                        </div>
-                        
-					<div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="about-content s-about-content  wow fadeInRight  animated pl-30" data-animation="fadeInRight" data-delay=".4s">
-                                <div class="about-title second-title pb-25">  
-                                    <h5>About Us</h5>
-                                    <h2>Most Safe & Rated Hotel In London.</h2>                                   
-                                </div>
-                                   <p>Morbi tortor urna, placerat vel arcu quis, fringilla egestas neque. Morbi sit amet porta erat, quis rutrum risus. Vivamus et gravida nibh, quis posuere felis. In commodo mi lectus, Integer ligula lorem, finibus vitae lorem vitae tincidunt dolor consequat quis.</p>
-                                    <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget lorem tempus blandit. Aenean eu vulputate lorem, quis auctor lectus.</p>
-                                    <div class="about-content3 mt-30">
-                                    <div class="row justify-content-center align-items-center">
-                                    <div class="col-md-12">
-                                         <ul class="green mb-30">                                              
-                                                    <li> 24 Month / 24,000km Nationwide Warranty monotone</li>
-                                                    <li> Curabitur dapibus nisl a urna congue, in pharetra urna accumsan.</li>     
-                                                    <li> Customer Rewards Program and excellent technology</li>
-                                               </ul>
-                                        </div>
-                                    <div class="col-md-6">
-                                          <div class="slider-btn">                                          
-                                                 <a href="about.html" class="btn ss-btn smoth-scroll">Discover More</a>				
-                                            </div>
-                                    </div>
-                                    <div class="col-md-6 text-right">
-                                        <div class="signature">
-                                            <img src="img/features/signature.png" alt="img">                                             
-                                        </div>
-                                     
-                                    </div>
-                                         
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                     
-                    </div>
-                </div>
-            </section>
-            <!-- about-area-end -->
-            <!-- service-details2-area -->
-            <section id="service-details2" class="pt-120 pb-90 p-relative" style="background-color: #f7f5f1;">
-                 <div class="animations-01"><img src="img/bg/an-img-01.png" alt="an-img-01"></div>
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <div class="section-title center-align mb-50 text-center">
-                                <h5>Explore</h5>
-                                <h2>
-                                    The Hotel
-                                </h2>
-                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
-                            </div>
-                           
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                                <div class="services-08-item mb-30">
-                                    <div class="services-icon2">
-                                       <img src="img/icon/fe-icon01.png" alt="img">
-                                    </div>
-                                    <div class="services-08-thumb">
-                                     <img src="img/icon/fe-icon01.png" alt="img">
-                                    </div>
-                                    <div class="services-08-content">
-                                        <h3><a href="single-service.html"> Qulity Room</a></h3>
-                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                                        <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                              <div class="col-lg-4 col-md-6">                                  
-                                <div class="services-08-item mb-30">
-                                     <div class="services-icon2">
-                                       <img src="img/icon/fe-icon04.png" alt="img">
-                                    </div>
-                                    <div class="services-08-thumb">
-                                   <img src="img/icon/fe-icon04.png" alt="img">
-                                    </div>
-                                    <div class="services-08-content">
-                                        <h3><a href="single-service.html">Privet Beach</a></h3>
-                                       <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-4 col-md-6">
-                               <div class="services-08-item mb-30">
-                                     <div class="services-icon2">
-                                       <img src="img/icon/fe-icon05.png" alt="img">
-                                    </div>
-                                    <div class="services-08-thumb">
-                                     <img src="img/icon/fe-icon05.png" alt="img">
-                                    </div>
-                                    <div class="services-08-content">
-                                        <h3><a href="single-service.html">Best Accommodation</a></h3>
-                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                         <div class="col-lg-4 col-md-6">
-                               <div class="services-08-item mb-30">
-                                     <div class="services-icon2">
-                                       <img src="img/icon/fe-icon06.png" alt="img">
-                                    </div>
-                                    <div class="services-08-thumb">
-                                     <img src="img/icon/fe-icon06.png" alt="img">
-                                    </div>
-                                    <div class="services-08-content">
-                                        <h3><a href="single-service.html"> Wellness & Spa</a></h3>
-                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                                        <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                              <div class="col-lg-4 col-md-6">
-                               <div class="services-08-item mb-30">
-                                   <div class="services-icon2">
-                                       <img src="img/icon/fe-icon07.png" alt="img">
-                                    </div>
-                                    <div class="services-08-thumb">
-                                   <img src="img/icon/fe-icon07.png" alt="img">
-                                    </div>
-                                    <div class="services-08-content">
-                                        <h3><a href="single-service.html">Restaurants & Bars</a></h3>
-                                       <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-4 col-md-6">
-                                <div class="services-08-item mb-30">
-                                    <div class="services-icon2">
-                                       <img src="img/icon/fe-icon08.png" alt="img">
-                                    </div>
-                                    <div class="services-08-thumb">
-                                     <img src="img/icon/fe-icon08.png" alt="img">
-                                    </div>
-                                    <div class="services-08-content">
-                                        <h3><a href="single-service.html">Special Offers</a></h3>
-                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
-                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </section>
-            <!-- service-details2-area-end -->
              <!-- room-area-->
             <section id="services" class="services-area pt-113 pb-150">
               
@@ -554,8 +402,8 @@
                     </div>
                 </div>
             </section>
-            <!-- room-area-end -->    
-            <!-- feature-area -->
+            <!-- room-area-end -->   
+             <!-- feature-area -->
             <section class="feature-area2 p-relative fix" style="background: #f7f5f1;">
                  <div class="animations-02"><img src="img/bg/an-img-02.png" alt="contact-bg-an-05"></div>
                 <div class="container">
@@ -587,6 +435,167 @@
                 </div>
             </section>
             <!-- feature-area-end -->
+             <!-- about-area -->
+            <section class="about-area about-p pt-120 pb-120 p-relative fix">
+                <div class="animations-02"><img src="img/bg/an-img-02.png" alt="contact-bg-an-02"></div>
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">                        
+					<div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="about-content s-about-content  wow fadeInRight  animated pr-30" data-animation="fadeInRight" data-delay=".4s">
+                                <div class="about-title second-title pb-25">  
+                                    <h5>About Us</h5>
+                                    <h2>Most Safe & Rated Hotel In London.</h2>                                   
+                                </div>
+                                   <p>Morbi tortor urna, placerat vel arcu quis, fringilla egestas neque. Morbi sit amet porta erat, quis rutrum risus. Vivamus et gravida nibh, quis posuere felis. In commodo mi lectus, Integer ligula lorem, finibus vitae lorem vitae tincidunt dolor consequat quis.</p>
+                                    <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget lorem tempus blandit. Aenean eu vulputate lorem, quis auctor lectus.</p>
+                                    <div class="about-content3 mt-30">
+                                    <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-12">
+                                         <ul class="green mb-30">                                              
+                                                    <li> 24 Month / 24,000km Nationwide Warranty monotone</li>
+                                                    <li> Curabitur dapibus nisl a urna congue, in pharetra urna accumsan.</li>     
+                                                    <li> Customer Rewards Program and excellent technology</li>
+                                               </ul>
+                                        </div>
+                                    <div class="col-md-6">
+                                          <div class="slider-btn">                                          
+                                                 <a href="about.html" class="btn ss-btn smoth-scroll">Discover More</a>				
+                                            </div>
+                                    </div>
+                                    <div class="col-md-6 text-right">
+                                        <div class="signature">
+                                            <img src="img/features/signature.png" alt="img">                                             
+                                        </div>
+                                     
+                                    </div>
+                                         
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                          <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
+                                <img src="img/features/about_img_02.png" alt="img">   
+                               <div class="about-icon">
+                                     <img src="img/features/about_img_03.png" alt="img">   
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about-area-end --> 
+            <!-- service-details2-area -->
+            <section id="service-details2" class="pt-120 pb-90 p-relative" style="background-color: #f7f5f1;">
+                 <div class="animations-01"><img src="img/bg/an-img-01.png" alt="an-img-01"></div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="section-title center-align mb-50 text-center">
+                                <h5>Explore</h5>
+                                <h2>
+                                    The Hotel
+                                </h2>
+                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
+                            </div>
+                           
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                                <div class="services-08-item mb-30">
+                                    <div class="services-icon2">
+                                       <img src="img/icon/fe-icon01.png" alt="img">
+                                    </div>
+                                    <div class="services-08-thumb">
+                                     <img src="img/icon/fe-icon01.png" alt="img">
+                                    </div>
+                                    <div class="services-08-content">
+                                        <h3><a href="single-service.html"> Qulity Room</a></h3>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
+                                        <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="col-lg-4 col-md-6">                                  
+                                <div class="services-08-item mb-30">
+                                     <div class="services-icon2">
+                                       <img src="img/icon/fe-icon04.png" alt="img">
+                                    </div>
+                                    <div class="services-08-thumb">
+                                   <img src="img/icon/fe-icon04.png" alt="img">
+                                    </div>
+                                    <div class="services-08-content">
+                                        <h3><a href="single-service.html">Privet Beach</a></h3>
+                                       <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
+                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-4 col-md-6">
+                               <div class="services-08-item mb-30">
+                                     <div class="services-icon2">
+                                       <img src="img/icon/fe-icon05.png" alt="img">
+                                    </div>
+                                    <div class="services-08-thumb">
+                                     <img src="img/icon/fe-icon05.png" alt="img">
+                                    </div>
+                                    <div class="services-08-content">
+                                        <h3><a href="single-service.html">Best Accommodation</a></h3>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
+                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                         <div class="col-lg-4 col-md-6">
+                               <div class="services-08-item mb-30">
+                                     <div class="services-icon2">
+                                       <img src="img/icon/fe-icon06.png" alt="img">
+                                    </div>
+                                    <div class="services-08-thumb">
+                                     <img src="img/icon/fe-icon06.png" alt="img">
+                                    </div>
+                                    <div class="services-08-content">
+                                        <h3><a href="single-service.html"> Wellness & Spa</a></h3>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
+                                        <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                              <div class="col-lg-4 col-md-6">
+                               <div class="services-08-item mb-30">
+                                   <div class="services-icon2">
+                                       <img src="img/icon/fe-icon07.png" alt="img">
+                                    </div>
+                                    <div class="services-08-thumb">
+                                   <img src="img/icon/fe-icon07.png" alt="img">
+                                    </div>
+                                    <div class="services-08-content">
+                                        <h3><a href="single-service.html">Restaurants & Bars</a></h3>
+                                       <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
+                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-lg-4 col-md-6">
+                                <div class="services-08-item mb-30">
+                                    <div class="services-icon2">
+                                       <img src="img/icon/fe-icon08.png" alt="img">
+                                    </div>
+                                    <div class="services-08-thumb">
+                                     <img src="img/icon/fe-icon08.png" alt="img">
+                                    </div>
+                                    <div class="services-08-content">
+                                        <h3><a href="single-service.html">Special Offers</a></h3>
+                                        <p>Nullam molestie lacus sit amet velit fermentum feugiat. Mauris auctor eget nunc sit amet.</p>
+                                         <a href="single-service.html">Read More <i class="fal fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service-details2-area-end -->
             <!-- pricing-area -->
             <section id="pricing" class="pricing-area pt-120 pb-60 fix p-relative">
                  <div class="animations-01"><img src="img/bg/an-img-01.png" alt="an-img-01"></div>
@@ -768,20 +777,20 @@
                                     <div class="col-lg-6 col-md-6">
                                         <div class="contact-field p-relative c-name mb-20">                                    
                                            <label><i class="fal fa-badge-check"></i> Check In Date</label>
-                                                     <input type="date" id="chackin2" name="date">
+                                                     <input type="date" id="chackin" name="date">
                                         </div>                               
                                     </div>
 
                                     <div class="col-lg-6 col-md-6">                               
                                         <div class="contact-field p-relative c-subject mb-20">                                   
                                            <label><i class="fal fa-times-octagon"></i> Check Out Date</label>
-                                                     <input type="date" id="chackout2" name="date">
+                                                     <input type="date" id="chackout" name="date">
                                         </div>
                                     </div>		
                                     <div class="col-lg-6 col-md-6">                               
                                         <div class="contact-field p-relative c-subject mb-20">                                   
                                              <label><i class="fal fa-users"></i> Adults</label>
-                                                <select name="adults" id="adu2">
+                                                <select name="adults" id="adu">
                                                   <option value="sports-massage">Adults</option>
                                                   <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -794,7 +803,7 @@
                                     <div class="col-lg-6 col-md-6">                               
                                         <div class="contact-field p-relative c-option mb-20">                                   
                                             <label><i class="fal fa-concierge-bell"></i> Room</label>
-                                               <select name="room" id="rm2">
+                                               <select name="room" id="rm">
                                                   <option value="sports-massage">Room</option>
                                                   <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -1029,6 +1038,7 @@
                                   <h2>Subscribe To Our Newsletter</h2>
                                 </div>
                                 <div class="footer-link">
+                                 <p>Subscribe our newsletter to get our latest update &amp; News</p>
                                  <div class="subricbe p-relative" data-animation="fadeInDown" data-delay=".4s" >
                                             <form action="news-mail.php" method="post" class="contact-form ">
                                              <input type="text" id="email2" name="email2"  class="header-input" placeholder="Your Email..." required>
